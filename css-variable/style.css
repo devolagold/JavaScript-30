@@ -1,0 +1,33 @@
+:root{
+    --base: #ffc600;
+    --spacing: 0px;
+    --blur: 0px;
+    --border-radius: 0px;
+}
+
+body {
+    text-align: center;
+    background: #193549;
+    color: white;
+    font-family: 'Inter';
+    font-size: 30px;
+}
+
+.controls {
+    margin-bottom: 50px;
+}
+
+input {
+    width: 100px;
+}
+
+img{
+    padding: var(--spacing);
+    background: var(--base);
+    border-radius: var(--border-radius);
+    filter: blur(var(--blur));
+}
+
+.hl{
+    color: var(--base);
+}
